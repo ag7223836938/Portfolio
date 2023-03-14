@@ -22,7 +22,7 @@ const Form = () => {
           console.log(error.text);
         });};
       alert("Message Sent Successfully :D");
-      window.location.reload(false);
+      // window.location.reload(false);
     }
   
 
