@@ -20,8 +20,10 @@ const Form = () => {
           console.log(result.text);
         }, (error) => {
           console.log(error.text);
-        });};
-      alert("Message Sent Successfully :D");
+        });
+        alert("Message Sent Successfully :D");
+      };
+      
       // window.location.reload(false);
     }
   
@@ -51,7 +53,7 @@ const Form = () => {
       ...formValues,
       [name]: value
     });
-    console.log(formValues);
+    // console.log(formValues);
   }
 
 
