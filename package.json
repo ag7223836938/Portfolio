@@ -1,8 +1,11 @@
 {
   "name": "my-app",
+  "homepage": "https://ag7223836938.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
